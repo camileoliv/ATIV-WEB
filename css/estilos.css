@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(rgb(201, 19, 19), black,black);
+}
+
+h1{
+    color:white;
+    font-size: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: center;
+}
+
+p{
+    color: white;
+    width: 50%;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+hr{
+    width: 50%;
+    height: 10px;
+    background: linear-gradient(black,rgb(117, 2, 2),black);
+    border-radius: 10px;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    margin:auto;
+}
+
+.caixaimagem{
+    width: fit-content;
+    margin: auto;
+}
+
+#vidarthur{
+    width: 1000px;
+    height: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+}
