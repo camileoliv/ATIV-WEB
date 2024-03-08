@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    background: linear-gradient(rgb(152, 252, 152), green, rgb(1, 65, 1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.interface {
+    background: white;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.interface img {
+    height: 250px;
+}
+
+.interface button {
+    background: rgb(255, 255, 255);
+    color: rgb(90, 201, 87);
+    font-size: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
+
+.interface button:hover {
+    background: rgb(224, 221, 221);
+    color: rgb(130, 206, 53);
+    padding-right: 20px;
+    padding-left: 20px;
+}
